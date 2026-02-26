@@ -1,6 +1,6 @@
 # blink
 
-A behavioral prompt that subtly enhances cognitive growth in every AI interaction.
+A skill that subtly enhances cognitive growth in every AI interaction.
 
 ## What it does
 
