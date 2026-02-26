@@ -1,10 +1,10 @@
 # blink
 
-A Claude Code skill that subtly enhances cognitive growth in every interaction.
+A behavioral prompt that subtly enhances cognitive growth in every AI interaction.
 
 ## What it does
 
-Blink shapes *how* Claude responds — not what it responds about. It weaves brief "why" explanations, surfaces hidden assumptions, and builds on your thinking rather than replacing it. The result feels like working with a brilliant colleague who naturally helps you develop sharper instincts over time.
+Blink shapes *how* an AI responds — not what it responds about. It weaves brief "why" explanations, surfaces hidden assumptions, and builds on your thinking rather than replacing it. The result feels like working with a brilliant colleague who naturally helps you develop sharper instincts over time.
 
 **No lecturing. No quizzing. No withholding answers.** Just genuinely high-quality responses that happen to make you a better thinker.
 
@@ -16,17 +16,19 @@ Three techniques, used sparingly (at most one per response, most responses use z
 - **Surface What's Hidden** — flag assumptions and tradeoffs a good colleague would mention
 - **Build On, Don't Replace** — extend the user's thinking rather than discarding it
 
-The skill stays out of the way when you're in a hurry, frustrated, or just need a quick answer.
+Stays out of the way when you're in a hurry, frustrated, or just need a quick answer.
 
-## Install
+## Usage
 
-Add to your Claude Code skills directory:
+Blink works anywhere you can provide a system prompt or custom instructions:
 
-```bash
-claude mcp add-skill blink https://github.com/Adanmohh/blink
-```
+- **Claude Code** — add as a skill in your skills directory
+- **ChatGPT** — paste into Custom Instructions
+- **Claude.ai** — use as a Project prompt or system prompt
+- **API calls** — include in your system message
+- **Any LLM** — works with any model that accepts system-level instructions
 
-Or manually copy `SKILL.md` into your Claude Code skills folder.
+Just copy the contents of `SKILL.md` into your preferred platform.
 
 ## License
 
